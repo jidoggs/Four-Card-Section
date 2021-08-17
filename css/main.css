@@ -1,1 +1,162 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+@media only screen and (max-width: 25em) {
+  body {
+    padding: 0 2rem;
+  }
+}
+
+.features {
+  background-color: #fafafa;
+  position: relative;
+}
+
+.features__headtag {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 25em) {
+  .features__headtag {
+    padding: 4rem 0;
+  }
+}
+
+.features__headtag h2 {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .features__headtag h2 {
+    font-size: 1.6rem;
+  }
+}
+
+.features__headtag h2 span {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .features__headtag h2 span {
+    font-size: 1.35rem;
+  }
+}
+
+.features__headtag p {
+  font-weight: 200;
+  color: #a3a5ae;
+  text-align: center;
+  width: 35.2rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 25em) {
+  .features__headtag p {
+    width: initial;
+    margin: 0;
+  }
+}
+
+.features__container {
+  width: 70%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6em 6em 6em 6em 6em 6em 6em 6em 6em 6em;
+      grid-template-columns: 6em 6em 6em 6em 6em 6em 6em 6em 6em 6em;
+  -ms-grid-rows: 6em 6em 6em 6em 6em;
+      grid-template-rows: 6em 6em 6em 6em 6em;
+  gap: 1.5em 1.5em;
+      grid-template-areas: ". . . place2 place2 place2 . . . ." "place1 place1 place1 place2 place2 place2 place4 place4 place4 ." "place1 place1 place1 place3 place3 place3 place4 place4 place4 ." ". . . place3 place3 place3 . . . .";
+}
+
+@media only screen and (max-width: 25em) {
+  .features__container {
+    display: block;
+    margin: 0;
+    width: 86%;
+    padding-bottom: 4rem;
+  }
+}
+
+.features .place1 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: place1;
+  border-top: 0.3rem solid #45d3d3;
+}
+
+.features .place2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-area: place2;
+  border-top: 0.3rem solid #ea5353;
+}
+
+.features .place3 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 3;
+  grid-area: place3;
+  border-top: 0.3rem solid #fcaf4a;
+}
+
+.features .place4 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 3;
+  grid-area: place4;
+  border-top: 0.3rem solid #549ef2;
+}
+
+.features__item {
+  padding: 1.5em;
+  position: relative;
+  background-color: #fff;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0px 8px 20px #a3a5ae;
+          box-shadow: 0px 8px 20px #a3a5ae;
+}
+
+.features__item h4 {
+  color: #4c4e61;
+  padding-bottom: .75rem;
+}
+
+.features__item p {
+  color: #a3a5ae;
+  font-size: .75rem;
+}
+
+.features__item img {
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+}
+
+@media only screen and (max-width: 25em) {
+  .features__item {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 12rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
